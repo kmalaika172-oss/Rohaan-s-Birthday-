@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Happy Birthday Rohaan ❤️</title>
+<style>
+body{margin:0;font-family:Georgia;background:linear-gradient(135deg,#ffd6e7,#fff);overflow-x:hidden}
+.card{max-width:900px;margin:40px auto;background:#fff;padding:30px;border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,.2)}
+h1{text-align:center;color:#e91e63}
+#msg{white-space:pre-line;line-height:1.9;font-size:18px;color:#444}
+.heart{position:fixed;bottom:-30px;color:#ff4d88;animation:f 8s linear infinite}
+@keyframes f{to{transform:translateY(-120vh);opacity:0}}
+.footer{text-align:right;color:#e91e63;font-weight:bold;margin-top:20px}
+</style></head><body>
+<script>
+for(let i=0;i<40;i++){let d=document.createElement('div');d.className='heart';d.innerHTML='❤';d.style.left=Math.random()*100+'%';d.style.fontSize=(12+Math.random()*20)+'px';d.style.animationDuration=(5+Math.random()*6)+'s';document.body.appendChild(d);}
+</script>
+<div class="card">
+<h1>🎂 Happiest Birthday My One & Only Rohaan ❤️</h1>
+<div id="msg"></div>
+<div class="footer">From,<br>❤️ Your Malaikahhh ❤️</div>
+</div>
+<script>
+const text=`HAPPIEST BIRTHDAY MY ONE AND ONLY (MERE PIYARE ROHAAN) 🌝🎀
+
+There are so many words I could say to you today, but none of them could ever truly capture what my heart feels.
+
+👉 Paste your COMPLETE birthday letter here (replace this placeholder with the full message you wrote in ChatGPT).
+
+Happy Birthday once again, my heart. ❤️
+#iloveyoufromthedepthofmyheart`;
+let i=0;function t(){if(i<text.length){msg.textContent+=text[i++];setTimeout(t,18);}}t();
+</script>
+</body></html>
